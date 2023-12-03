@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expenses Tracker</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="dash.css">
+</head>
+<body>
+    <div class="container">
+         
+            <h2>Hello Anons</h2>
+
+            <div class="addbtn">
+                <div class="roundbtn" ><h1>+</h1></div>
+                <div class="minusbtn" ><h1>-</h1></div>
+            </div>
+
+            <div class="form" id="createtask">
+                
+                <label ><b>Enter Description</b></label>
+                <input type="text" id="maindesc" placeholder="Enter description"  required>
+                <br>
+                <label ><b>Enter Amount</b></label>
+                <input type="number" id="mainexp" placeholder="Enter amount"  required>
+                
+                    <div class="btns">
+                        <div class="ente">
+                            <button id="recordbtn" class="enter">Record</button>
+                        </div>
+
+                        <div class="add">
+                            <button id="addbtn" class="Add">Add Balance</button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="form addbalance" id="addbalance">
+                
+                <label ><b>Top up balance</b></label>
+                
+                <input type="number" id="tubalance" placeholder="Enter amount"  required>
+                
+                <div class="ente">
+                    <button id="tubalancebtn" class="enter">Top Up</button>
+                </div>
+            </div>
+
+            <div class="change" id="change">
+                <h5>Balance</h5>
+                <div id="toggle"><h4>&#128064</h4></div>
+                <div id="untoggle"><h4>&#128065</h4></div>
+                <h3 id="balance">1000000</h3>
+                <h3 id="hide">*****</h3>
+            </div>
+
+            <h4 class="expenses">Expenses</h4>
+
+            <div class="exp-container" id="exp-container">
+                <ul>
+                    <!----<li>Tomato</li>
+                    <li>Tomato</li>
+                    <li>Tomato</li>---->
+                </ul>
+            </div>
+
+            
+        
+
+            
+            <!---<label ><b>Your name</b></label>
+        <input type="text" id="name" placeholder="Your name here" name="email" required>
+
+        <label ><b>Your Budget</b></label>
+        <input type="number" id="budget" placeholder="Your budget here" name="email" required>
+
+        <div class="btn">
+            <div class="save">
+                <button id="savebtn" class="savebtn">Save</button>
+            </div>
+
+            <div class="dashboard">
+                <button id="dashbtn" class="dashbtn"><a href="dash.html"></a>Dashboard</button>
+            </div>
+        </div> --->
+    </div>
+
+    
+    <script src="script1.js"></script>
+</body>
+</html>

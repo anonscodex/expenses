@@ -1,0 +1,201 @@
+*{ 
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background:linear-gradient(90deg, #3498db, #e74c3c);
+    color:white;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    
+    margin:40px auto;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    width: 100%;
+    max-width: 350px;
+    color:black;
+    border-radius: 20px;
+    padding:40px;
+    text-align: center;
+}
+
+.container h2 {
+    position: relative;
+    left:-70px;
+    top:0px;
+    font-weight: 400;
+
+}
+
+.change {
+    width:250px;
+    background-color: black;
+    height:70px;
+    position: relative;
+    left:13px;
+    border-radius: 20px;
+    top:-20px;
+}
+
+.change h3{
+    color:white;
+    margin-top:-15px;
+    font-size: 30px;
+}
+
+
+
+
+.change h5{
+    position: relative;
+    color:white;
+    top:0px;
+    
+}
+
+.change h4{
+    color:white;
+    position: relative;
+    float:right;
+    top:-50px;
+    right:20px;
+
+}
+
+.expenses {
+    position: relative;
+    left:-80px;
+    top:0px;
+}
+
+li {
+    background-color: rgb(209, 204, 204);
+    border-radius: 5px;
+    margin:0px;
+    padding-top:10px;
+    padding-left: 20px;
+    list-style-type:none;
+    text-align: left;
+    margin-top:10px;
+    margin-left: 10px;
+    font-size: large;
+    
+}
+
+.addbtn {
+    position: relative;
+    top:-120px;
+    left:60px;
+}
+.roundbtn {
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+}
+
+.roundbtn h1{
+    color:green;
+    position: relative;
+    left:180px;
+    top:60px;
+}
+
+.minusbtn {
+    display: none;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+}
+
+.minusbtn h1{
+    color:red;
+    position: relative;
+    left:180px;
+    top:60px;
+}
+
+#hide {
+    display:none;
+}
+
+#untoggle {
+    display:none;
+}
+
+.form {
+    display:none;
+    position: relative;
+    top:-40px;
+
+}
+
+input[type=text],select,textarea {
+    box-sizing:border-box;
+    padding:10px;
+    border: none;
+    margin-top: 15px;
+    
+}
+
+input[type=number],select,textarea {
+    box-sizing:border-box;
+    padding:10px;
+    border: none;
+    margin-top: 15px;
+    
+}
+
+.ente {
+    position:relative;
+    top:10px;
+    
+}
+
+.enter {
+    font-size: 16px;
+    border:none;
+    background-color:green;
+    color:white;
+    border-radius:5px;
+    cursor: pointer;
+    position:relative;
+    transform-style: preserve-3d;
+    transition:transform 0.3s, box-shadow 0.3s;
+}
+
+
+.add {
+    position:relative;
+    top:10px;
+    
+}
+
+.Add {
+    font-size: 16px;
+    border:none;
+    background-color:green;
+    color:white;
+    border-radius:5px;
+    cursor: pointer;
+    position:relative;
+    transform-style: preserve-3d;
+    transition:transform 0.3s, box-shadow 0.3s;
+}
+
+li h3 {
+    position:relative;
+    top:-15px;
+    text-align: center;
+}
+
