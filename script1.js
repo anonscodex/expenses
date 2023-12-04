@@ -167,7 +167,7 @@ tubalancebtn.addEventListener('click', ()=> {
     
 
 
-    //saveData()
+    saveData()
 })
 
 
@@ -195,6 +195,7 @@ untoggle.addEventListener('click', ()=> {
     untoggle.style.display = 'none'
 //}
 //isHidden = !isHidden
+saveData()
 })
 
 
@@ -229,7 +230,7 @@ function getData(){
     document.getElementById("balance").textContent = localStorage.data2;
 }
 
-//getData()
+getData()
 
 
 
