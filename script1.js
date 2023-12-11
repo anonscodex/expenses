@@ -6,6 +6,10 @@
 
 //console.log(userbudget)
 
+alert(
+    "Click the green plus button to add balance and input expenses"
+)
+
 let expcontainer = document.querySelector("#exp-container")
 var balance = document.querySelector("#balance")
 let addexp = document.querySelector(".roundbtn")
