@@ -234,7 +234,7 @@ function getData(){
     document.getElementById("balance").textContent = localStorage.data2;
 }
 
-getData()
+//getData()
 
 
 
